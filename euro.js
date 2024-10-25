@@ -51,7 +51,7 @@ function genJSONBet() {
 
 async function genNewBet() {
     try {
-        const response = await fetch('http://localhost:4050/generate-bet');
+        const response = await fetch('https://euro-b1ya.onrender.com/generate-bet');
         const bet = await response.json();
         
         // Display numbers
